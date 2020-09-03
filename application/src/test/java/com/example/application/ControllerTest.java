@@ -12,6 +12,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 
 public class ControllerTest extends AbstractTest {
+
     @Override
     @Before
     public void setUp() {
