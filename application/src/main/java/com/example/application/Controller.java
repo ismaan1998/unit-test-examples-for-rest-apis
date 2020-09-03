@@ -19,16 +19,33 @@ public class Controller {
     }
 
     @PostMapping("create-data")
-    public ResponseEntity createData(@RequestBody ExampleModel model){
+    public ResponseEntity createData(@RequestBody ExampleModel model) {
 
         return new ResponseEntity(
                 String.format("data is successfully created"),
                 HttpStatus.CREATED
         );
 
-
-
     }
+
+    @PutMapping("update-data")
+    public ResponseEntity updateData(@RequestBody ExampleModel model) {
+
+        return new ResponseEntity(
+                String.format("data is successfully updated"),
+                HttpStatus.OK
+        );
+    }
+
+    @DeleteMapping("delete-data")
+    public ResponseEntity deleteData(@RequestParam Integer id) {
+
+        return new ResponseEntity(
+                String.format("Data is deleted successfully"),
+                HttpStatus.OK
+        );
+    }
+
 
 }
 

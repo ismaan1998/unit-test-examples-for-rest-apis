@@ -36,7 +36,7 @@ public class ControllerTest extends AbstractTest {
 
 
     @Test
-    public void createProduct() throws Exception {
+    public void createDataTest() throws Exception {
         String uri = "/create-data";
         //preparing data to test
         ExampleModel model = new ExampleModel();
@@ -58,4 +58,41 @@ public class ControllerTest extends AbstractTest {
 
 
 
+
+    @Test
+    public void updateDataTest() throws Exception {
+        String uri = "/update-data";
+        //preparing data to test
+        ExampleModel model = new ExampleModel();
+        model.setId(3);
+        model.setName("example update name");
+        String inputJson = super.mapToJson(model);
+
+        //running API
+        MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.put(uri)
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .content(inputJson)).andReturn();
+
+        //testing results.
+        int status = mvcResult.getResponse().getStatus();
+        assertEquals(200, status);
+        String content = mvcResult.getResponse().getContentAsString();
+        assertEquals(content,"data is successfully updated");
+    }
+
+
+    @Test
+    public void deleteDataTest() throws Exception {
+        Integer parameter = 2;
+        String uri = "/delete-data?id="+parameter;
+
+
+        MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.delete(uri)).andReturn();
+
+        int status = mvcResult.getResponse().getStatus();
+        assertEquals(200, status);
+        String content = mvcResult.getResponse().getContentAsString();
+        assertEquals(content, "Data is deleted successfully");
+    }
 }
+
