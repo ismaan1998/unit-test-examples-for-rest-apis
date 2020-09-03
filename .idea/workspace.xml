@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73b5f727-cc46-4e51-aaca-94e69715d048" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/example/application/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/example/application/ControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/example/application/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/example/application/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/example/application/ControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest">
+  <component name="RunManager" selected="JUnit.ControllerTest.createProduct">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.application.Application" />
       <module name="application" />
@@ -96,10 +93,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ControllerTest.createProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.application" />
+      <option name="MAIN_CLASS_NAME" value="com.example.application.ControllerTest" />
+      <option name="METHOD_NAME" value="createProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ControllerTest" />
+        <item itemvalue="JUnit.ControllerTest.createProduct" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.ControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +144,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599059631497" />
+    <state x="2012" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599102622677">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2012" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599102622677" />
     <state x="498" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599059595695">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -138,22 +156,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599059627539" />
-    <state width="1493" height="112" key="GridCell.Tab.0.bottom" timestamp="1599061500185">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1599102933836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061500185" />
-    <state width="1493" height="112" key="GridCell.Tab.0.center" timestamp="1599061500185">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1493" height="114" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599102933836" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1599102933836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061500185" />
-    <state width="1493" height="112" key="GridCell.Tab.0.left" timestamp="1599061500185">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1493" height="114" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599102933836" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1599102933836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061500185" />
-    <state width="1493" height="112" key="GridCell.Tab.0.right" timestamp="1599061500185">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1493" height="114" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599102933836" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1599102933836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061500185" />
+    <state width="1493" height="114" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599102933836" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1599059831983">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

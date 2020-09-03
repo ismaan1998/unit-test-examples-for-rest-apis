@@ -1,8 +1,8 @@
 package com.example.application;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class Controller {
@@ -17,4 +17,18 @@ public class Controller {
 
         return model;
     }
+
+    @PostMapping("create-data")
+    public ResponseEntity createData(@RequestBody ExampleModel model){
+
+        return new ResponseEntity(
+                String.format("data is successfully created"),
+                HttpStatus.CREATED
+        );
+
+
+
+    }
+
 }
+
