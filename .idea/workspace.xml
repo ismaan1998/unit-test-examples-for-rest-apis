@@ -64,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest.deleteDataTest">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.application.Application" />
       <module name="application" />
@@ -74,6 +74,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.createDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.application" />
+      <option name="MAIN_CLASS_NAME" value="com.example.application.ControllerTest" />
+      <option name="METHOD_NAME" value="createDataTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,22 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.getDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.application" />
-      <option name="MAIN_CLASS_NAME" value="com.example.application.ControllerTest" />
-      <option name="METHOD_NAME" value="getDataTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ControllerTest.updateDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="application" />
       <extension name="coverage">
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.ControllerTest.createDataTest" />
         <item itemvalue="JUnit.ControllerTest.deleteDataTest" />
         <item itemvalue="JUnit.ControllerTest.updateDataTest" />
-        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.ControllerTest.createProduct" />
-        <item itemvalue="JUnit.ControllerTest.getDataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,26 +191,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599059627539" />
-    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1599104438496">
+    <state width="1877" height="196" key="GridCell.Tab.0.bottom" timestamp="1599104923809">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="114" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
-    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104438496" />
-    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1599104438496">
+    <state width="1877" height="196" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104923809" />
+    <state width="1877" height="196" key="GridCell.Tab.0.center" timestamp="1599104923809">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="114" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
-    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104438496" />
-    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1599104438496">
+    <state width="1877" height="196" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104923809" />
+    <state width="1877" height="196" key="GridCell.Tab.0.left" timestamp="1599104923809">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="114" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
-    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104438496" />
-    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1599104438496">
+    <state width="1877" height="196" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104923809" />
+    <state width="1877" height="196" key="GridCell.Tab.0.right" timestamp="1599104923809">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="114" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1599061624426" />
-    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104438496" />
+    <state width="1877" height="196" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599104923809" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1599059831983">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

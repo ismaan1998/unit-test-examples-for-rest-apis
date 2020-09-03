@@ -53,7 +53,7 @@ public class ControllerTest extends AbstractTest {
         int status = mvcResult.getResponse().getStatus();
         assertEquals(201, status);
         String content = mvcResult.getResponse().getContentAsString();
-        assertEquals(content,"data is successfully created");
+        assertEquals(content,String.format("data %d is successfully created",model.getId()));
     }
 
 

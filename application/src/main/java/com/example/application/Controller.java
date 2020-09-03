@@ -21,8 +21,9 @@ public class Controller {
     @PostMapping("create-data")
     public ResponseEntity createData(@RequestBody ExampleModel model) {
 
+        String message = String.format("data %d is successfully created",model.getId());
         return new ResponseEntity(
-                String.format("data is successfully created"),
+                String.format(message),
                 HttpStatus.CREATED
         );
 
