@@ -20,6 +20,10 @@ public class ControllerTest extends AbstractTest {
     }
 
 
+
+    //in case you're using @PreAuthorize in your APIs to for OAuth then you can uncomment the line below to mock user and replace the user role according to yours
+    //@WithMockUser(roles="Admin")
+
     @Test     // test for get mapping
     public void getDataTest() throws Exception {
 
@@ -100,8 +104,3 @@ public class ControllerTest extends AbstractTest {
 
 
 
-/*
-
-.header(HttpHeaders.AUTHORIZATION,
-                    "Basic " + Base64Utils.encodeToString("user:secret".getBytes()))
- */
