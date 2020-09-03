@@ -96,3 +96,11 @@ public class ControllerTest extends AbstractTest {
     }
 }
 
+
+
+
+/*
+
+.header(HttpHeaders.AUTHORIZATION,
+                    "Basic " + Base64Utils.encodeToString("user:secret".getBytes()))
+ */
